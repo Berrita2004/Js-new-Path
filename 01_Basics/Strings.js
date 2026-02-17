@@ -20,5 +20,8 @@ const anotherString = gameName.slice(-7, 5);
 console.log(anotherString);
 
 
+const string1 = "Hello";
+console.log(string1.trim()); // removes whitespace from both ends of the string
  
- 
+const url = "https://www.example.com/aqddicted%20game";
+console.log(url.replace("%20", "-")); // replaces "%20" with "-"
