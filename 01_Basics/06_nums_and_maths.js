@@ -20,3 +20,5 @@ console.log(otherNumber.toPrecision(3)); // formats the number to a specified le
 const hundred = 1000000;
 //console.log(hundred.toLocaleString()); // formats the number with commas as thousands separators
 console.log(hundred.toLocaleString('en-US')); // formats the number with commas as thousands separators for US locale
+
+
