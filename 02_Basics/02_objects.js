@@ -28,5 +28,11 @@ const JsUser ={
 JsUser.greeting = function(){
     console.log("Hello, welcome to JavaScript!")
 }
+JsUser.greetingTwo = function(){
+    console.log(`Hello, welcome to JavaScript!, ${this.name}`)
+}
 
-console.log(JsUser.greeting())
+console.log(JsUser.greeting());   
+console.log(JsUser.greetingTwo()); 
+//why undefined aayega greeting me kyuki this.name me name nhi hai isliye undefined aayega, but greetingTwo me name hai isliye name aayega.
+
