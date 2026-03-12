@@ -11,9 +11,15 @@ const {courseInstructor : instructor} = course
 // console.log(courseInstructor);
 console.log(instructor);
 
+//APIS 
 
-const navBar = () => {
-    
-}
-
-navBar(comapny = "ishita" )
+// {//Json
+//     "name": "Ishita",
+//     "courseName" : "js in hindi",
+//     "price" : "free"
+// } 
+[
+    {},
+    {},
+    {}
+]
