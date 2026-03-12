@@ -59,5 +59,5 @@ function loginUserMessage(username = "Guest" ){// adding default value to userna
     }
     return `${username} just logged in. `
 }
-console.log(loginUserMessage("ishu")) // "ishu just logged in. "
-console.log(loginUserMessage()) // "Guest just logged in. "
+// console.log(loginUserMessage("ishu")) // "ishu just logged in. "
+// console.log(loginUserMessage()) // "Guest just logged in. "
